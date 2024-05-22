@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofa Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sofa Shop</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Cart</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <h2>Comfy Sofa</h2>
+            <div class="product-image">
+                <img src="sofa1.jpg" alt="Comfy Sofa">
+            </div>
+            <div class="product-details">
+                <p>Price: $499</p>
+                <p>Description: This comfy sofa is perfect for any living room. It features plush cushions and a modern design.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+        <section class="product">
+            <h2>Elegant Sofa</h2>
+            <div class="product-image">
+                <img src="elegant.jpg" alt="Elegant Sofa">
+            </div>
+            <div class="product-details">
+                <p>Price: $799</p>
+                <p>Description: An elegant sofa that combines style and comfort. It is made with high-quality materials.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sofa Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.product-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-details {
+    margin-left: 2rem;
+}
+
+.product-details p {
+    margin: 0.5rem 0;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const cartButtons = document.querySelectorAll('.add-to-cart');
+    
+    cartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Added to cart!');
+        });
+    });
+});
