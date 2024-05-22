@@ -1,0 +1,63 @@
+
+<STUDENTDATA>
+<STUDENT>
+<USN>USN : 3GN16CS002</USN>
+<NAME>NAME : LISA M</NAME>
+<COLLEGE>COLLEGE : GNDECB</COLLEGE>
+<BRANCH>BRANCH :CSE</BRANCH>
+<YEAR>YEAR : 2019</YEAR>
+<EMAIL>E-MAIL : lisam@gmail.com</EMAIL>
+</STUDENT>
+
+<STUDENT>
+<USN>USN : 3GN16CS029</USN>
+<NAME>NAME : ROSE</NAME>
+<COLLEGE>COLLEGE : GNDECB</COLLEGE>
+<BRANCH>BRANCH :CSE</BRANCH>
+<YEAR>YEAR : 2019</YEAR>
+<EMAIL>E-MAIL : rose@gmail.com</EMAIL>
+</STUDENT>
+
+<STUDENT>
+<USN>USN : 3GN16CS027</USN>
+<NAME>NAME : JISOO</NAME>
+<COLLEGE>COLLEGE : GNDECB</COLLEGE>
+<BRANCH>BRANCH :CSE</BRANCH>
+<YEAR>YEAR : 2019</YEAR>
+<EMAIL>E-MAIL : jisoo@gmail.com</EMAIL>
+</STUDENT>
+</STUDENTDATA>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Data</title>
+</head>
+<body>
+    <h1>Student Data</h1>
+    <div>
+        <p><strong>USN:</strong> 3GN16CS002<br>
+        <strong>NAME:</strong> LISA M<br>
+        <strong>COLLEGE:</strong> GNDECB<br>
+        <strong>BRANCH:</strong> CSE<br>
+        <strong>YEAR:</strong> 2019<br>
+        <strong>E-MAIL:</strong> lisam@gmail.com</p>
+    </div>
+    <div>
+        <p><strong>USN:</strong> 3GN16CS029<br>
+        <strong>NAME:</strong> ROSE<br>
+        <strong>COLLEGE:</strong> GNDECB<br>
+        <strong>BRANCH:</strong> CSE<br>
+        <strong>YEAR:</strong> 2019<br>
+        <strong>E-MAIL:</strong> rose@gmail.com</p>
+    </div>
+    <div>
+        <p><strong>USN:</strong> 3GN16CS027<br>
+        <strong>NAME:</strong> JISOO<br>
+        <strong>COLLEGE:</strong> GNDECB<br>
+        <strong>BRANCH:</strong> CSE<br>
+        <strong>YEAR:</strong> 2019<br>
+        <strong>E-MAIL:</strong> jisoo@gmail.com</p>
+    </div>
+</body>
+</html>
